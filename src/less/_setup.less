@@ -1,0 +1,92 @@
+@space      : 25px;
+
+@black      : #000;
+@black25    : rgba(0,0,0,.25);
+@black50    : rgba(0,0,0,.5);
+@black75    : rgba(0,0,0,.75);
+
+@white      : #fff;
+@white25    : rgba(255,255,255,.25);
+@white50    : rgba(255,255,255,.5);
+@white75    : rgba(255,255,255,.75);
+
+@bgGray     : #f8f8f8;
+
+.futura() {
+  font-family: 'Futura', monospace;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.cover() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gradient() {
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+.button {
+
+  @buttonHeight : 40px;
+
+  display: inline-block;
+  height: @buttonHeight;
+  line-height: @buttonHeight;
+  background: @white;
+  border-radius: @buttonHeight/2;
+  padding: 0 @buttonHeight/2;
+  text-decoration: none;
+  transition: 300ms ease;
+
+  &.outline {
+
+    @onlineWidth : 2px;
+
+    border: @onlineWidth solid @white50;
+    height: @buttonHeight+@onlineWidth+@onlineWidth;
+    padding: 0 (@buttonHeight/2)+@onlineWidth;
+    border-radius: (@buttonHeight/2)+@onlineWidth;
+    background: none;
+
+    &.white {
+
+      color: @white;
+
+      &:hover {
+
+        border-color: @white;
+
+      }
+
+    }
+
+  }
+
+}

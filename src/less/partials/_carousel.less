@@ -1,0 +1,102 @@
+#carousel {
+
+  position: relative;
+  margin-bottom: @space*2;
+
+  &.slick-slider {
+
+    button {
+
+      position: absolute;
+      left: 0;
+      top: 50%;
+    
+    }
+
+    .slick-dots {
+
+      position: absolute;
+      bottom: 0;
+
+    }
+
+  }
+
+  .slide {
+
+    position: relative;
+
+    .album {
+
+      position: relative;
+      background: @black;
+
+      img {
+
+        transition: 300ms ease;
+
+      }
+
+      .meta {
+
+        .cover();
+        background: #5FC7CD;
+        top: 0;
+        opacity: 0;
+        transition: 300ms ease;
+
+        a {
+
+          position: absolute;
+          font-size: 48px;
+          color: @black50;
+          text-decoration: none;
+          left: 50%;
+          top: 50%;
+          margin-left: -25px;
+          transition: 300ms ease;
+
+          &:hover {
+            color: @black75;
+          }
+
+          &.purchase {
+
+            margin-top: 15px;
+
+          }
+
+          &.spotify {
+
+            margin-top: -60px;
+            border-bottom: 1px solid @black25;
+
+          }
+
+        }
+
+      }
+
+      &:hover {
+
+        img {
+
+          opacity: .4;
+          -webkit-transform: scale(.85,.85);
+
+        }
+
+        .meta {
+
+          opacity: 1;
+          -webkit-transform: scale(1,1);
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

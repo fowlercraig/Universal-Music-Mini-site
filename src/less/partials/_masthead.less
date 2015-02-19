@@ -1,0 +1,45 @@
+.page-head {
+
+  background: @black url(../images/universal-music_site--background.jpg) top center;
+  background-size: cover;
+  position: relative;
+
+  .content {
+    position: relative;
+    z-index: 9;
+  }
+
+  &:before {
+    .cover();
+    .gradient();
+    content: '';
+    display: block;
+  }
+
+  .page-head--content {
+
+    color: @white;
+    padding: @gutter*3 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    .futura();
+
+    p {
+
+      color: @white;
+      font-size: 27px;
+      line-height: 1.4;
+
+      &:first-child {
+        margin-top: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+    }
+
+  }
+
+}

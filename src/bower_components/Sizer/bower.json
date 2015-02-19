@@ -1,0 +1,20 @@
+{
+  "name": "Sizer",
+  "version": "3.0.6",
+  "description": "A jQuery plugin for matching dimensions. Part of the Formstone Library.",
+  "author": {
+    "name": "Ben Plum",
+    "email": "mr@benplum.com",
+    "url": "http://www.benplum.com"
+  },
+  "license": "MIT",
+  "homepage": "http://formstone.it/sizer/",
+  "main": [
+    "jquery.fs.sizer.js"
+  ],
+  "ignore": [
+    "*.jquery.json",
+    "Gruntfile.js",
+    "src/"
+  ]
+}
