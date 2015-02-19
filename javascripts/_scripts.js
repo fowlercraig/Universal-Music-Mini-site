@@ -48,8 +48,8 @@ $( document ).ready(function() {
     cssEase: 'ease',
     slidesToShow: 6,
     slidesToScroll: 6,
-    //autoplay: true,
-    autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 1024,
@@ -70,8 +70,8 @@ $( document ).ready(function() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToShow: 3,
+          slidesToScroll: 3
         }
       }
       // You can unslick at a given breakpoint now by adding:

@@ -44,6 +44,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/left-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 786,
+		"inputAbbreviatedPath": "\/images\/left-arrow.png",
+		"outputAbbreviatedPath": "\/images\/left-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/masthead-type--original.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -66,6 +77,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/right-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 754,
+		"inputAbbreviatedPath": "\/images\/right-arrow.png",
+		"outputAbbreviatedPath": "\/images\/right-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/spotify_logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -73,6 +95,17 @@
 		"initialSize": 27165,
 		"inputAbbreviatedPath": "\/images\/spotify_logo.jpg",
 		"outputAbbreviatedPath": "\/images\/spotify_logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ume-logo-bottom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1913,
+		"inputAbbreviatedPath": "\/images\/ume-logo-bottom.png",
+		"outputAbbreviatedPath": "\/images\/ume-logo-bottom.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -393,6 +426,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/rules.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rules.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/_carousel.kit": {
 		"fileType": 2048,
@@ -2106,6 +2148,15 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/src\/rules.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/rules.kit",
+		"outputAbbreviatedPath": "\/rules.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
 		},
 	"\/stylesheets\/main.css": {
 		"fileType": 16,

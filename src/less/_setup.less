@@ -12,6 +12,12 @@
 
 @bgGray     : #f8f8f8;
 
+@mobileC: ~"screen and (max-width: 499px)";
+@tabletC: ~"screen and (min-width: 500px) and (max-width: 739px)";
+@desktopC:  ~"screen and (min-width: 740px) and (max-width: 979px)";
+@maxC:    ~"screen and (min-width: 980px) and (max-width: 1279px)";
+@superMax:    ~"screen and (min-width: 1280px) and (max-width: 99999px)";
+
 .futura() {
   font-family: 'Futura', monospace;
 }
@@ -64,6 +70,9 @@
   padding: 0 @buttonHeight/2;
   text-decoration: none;
   transition: 300ms ease;
+  .futura();
+  text-transform: uppercase;
+  font-weight: 600;
 
   &.outline {
 

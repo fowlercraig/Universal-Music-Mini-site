@@ -1,3 +1,12 @@
+.carousel--wrapper {
+  border-top: 1px solid rgba(255,255,255,.2);
+
+  header {
+    color: @white75;
+  }
+
+}
+
 #carousel {
 
   position: relative;
@@ -8,8 +17,32 @@
     button {
 
       position: absolute;
-      left: 0;
-      top: 50%;
+      top: 0;
+      height: 100%;
+      background-color: @black25;
+      background-position: center center;
+      background-repeat: none;
+      background-size: 50px 50px;
+      border: none;
+      width: 50px;
+      text-indent: -9999px;
+      transition: 300ms ease;
+
+      &:hover {
+        background-color: @black50;
+      }
+
+      &.slick-next {
+        right: 0;
+        background: @black25 url(../images/right-arrow.png) center center no-repeat;
+        background-size: 30% auto;
+      }
+
+      &.slick-prev {
+        left: 0;
+        background: @black25 url(../images/left-arrow.png) center center no-repeat;
+        background-size: 30% auto;
+      }
     
     }
 
@@ -17,6 +50,7 @@
 
       position: absolute;
       bottom: 0;
+      display: none!important;
 
     }
 
