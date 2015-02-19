@@ -1569,6 +1569,11 @@ header .sub-title {
 .page-head .page-head--content p:last-child {
   margin-bottom: 0;
 }
+header.rules {
+  background: #000000 url(../images/universal-music_site--background.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
 .carousel--wrapper {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
