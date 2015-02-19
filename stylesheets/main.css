@@ -1404,6 +1404,82 @@ header .header-title {
 #rules li:hover {
   color: #999;
 }
+.footer {
+  font-size: 12px;
+  line-height: 16px;
+  width: 100%;
+  text-align: center;
+  background: #000000;
+  min-height: 100px;
+}
+.footer .bottom_logo {
+  position: relative;
+  display: inline-block;
+  margin: 20px 20px 0px 0px;
+  vertical-align: middle;
+}
+.footer .bottom_links {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 660px;
+  text-align: left;
+  margin: 20px 0px 0px 0px;
+}
+.footer .contact {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 18px;
+  padding-bottom: 0px;
+  color: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+.footer .contact a {
+  color: #fff;
+  font-family: BebasNeue, BEBAS, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 11px;
+}
+.footer .contact a {
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.powered {
+  position: relative;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+.connect {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 10;
+}
+.connect img {
+  vertical-align: middle;
+  margin: 0px 4px 0px 0px;
+}
+.enter_web {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  text-align: right;
+}
+.top_logo {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0px;
+}
+.mood {
+  position: relative;
+  text-align: center;
+  padding: 10px 0px 8px 0px;
+}
 @font-face {
   font-family: 'Futura';
   src: url('../fonts/FuturaStdBold.eot');
